@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<title></title>
+</head>
+<body>
+<div class="container">
+	<div class="form-group">
+		<form>
+			<div>
+			<label>First Name</label>
+			<input type="text" name="fn" placeholder="First Name"
+			pattern="[A-Za-z]{2,30}">
+			</div>
+			<div>
+			<label>Last Name</label>
+			<input type="text" name="in" placeholder="Last Name"
+			pattern="[A-Za-z]{2,30}">
+			</div>
+			<div>
+			<label class="req">Email Address</label>
+			<input type="email" name="em" placeholder="Email Address" required>
+			</div>
+			<div>
+			<label class="req">Phone No.</label>
+			<input type="tel" name="ph" placeholder="Enter Mobile Num" required
+			pattern="[0-9]{10}">
+			</div>
+			<div>
+			<label>Massage</label>
+			<textarea rows=4></textarea>
+			</div>
+			<div>
+			<button>Send Massage</button>
+			</div>
+		</form>
+	</div>
+</div>
+</body>
+</html>

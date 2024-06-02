@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<script>
+		function showDate(){
+			days=['Sun','Mon','Wed','Thu','Fri','Sat']
+			x=new Date();
+			d=x.getDate();
+			m=x.getMonth();
+			y=x.getFullYear();
+			dy=x.getDay();
+			    date=days[dy]+"/"+d+"/"+m+'/'+y;
+			document.getElementById('dt').textContent=date;
+			h=x.getHours();
+			document.getElementsByTagName('span')[0].textContent=h;
+			i=x.getMinutes();
+			document.getElementsByTagName('span')[1].textContent=i;
+			s=x.getSeconds();
+			document.getElementsByTagName('span')[2].textContent=s;
+			setTimeout(showDate,500)
+
+		}
+	</script>
+	<style type="text/css">
+		*{text-align: center; font-weight: bold;}
+		#dt{font-size: 4vw;} 
+		#tm{font-size: 4vw; margin: 50px 0px;}
+		span{background-color: crimson; color: white; padding: 30px}
+	</style>
+</head>
+<body onload="showDate()">
+	<div class="container">
+	<div class="form-group">
+		<p>Today is:</p>
+		<p id='dt'></p>
+		<p>Current Time</p>
+		<div id='tm'><span></span>:<span></span>:<span></span></div>
+	</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+
+
+body{background: cadetblue;}
+.container{width: 80%; margin: auto; background-color: white; padding: 20px; box-sizing: border-box;}
+.form-group{width: 50%; margin: 40px auto; padding: 20px; box-sizing:border-box;
+box-shadow: 0px 0px 10px 2px dimgray;}
+input{
+	width: 95%;
+	padding: 2.5%;
+	margin: 10px 0px;
+}
+label,p,li{font-size: 14pt}

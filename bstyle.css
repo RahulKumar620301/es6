@@ -1,0 +1,17 @@
+
+
+body{background-color: rosybrown;}
+div{background-color: white; width:75%; margin:auto;
+padding: 40px; box-sizing: border-box}
+h1{color: rosybrown; text-align: right; letter-spacing: 5pt}
+h2{color:dimgray;text-align: center; word-spacing: 10pt; font-variant: small-caps;
+letter-spacing: 10pt; text-decoration-color: rosybrown; text-decoration-style: wavy;
+text-decoration-line: underline;}
+h3{color: dimgray;text-align: center;}
+h4{background-color: beige; text-align: center; padding: 10px;
+border-style: dotted; border-width: thick; outline: 5px double rosybrown;}
+span{text-transform: uppercase; color: blue;}
+h5{font-size: 16pt; font-weight: bold; padding: 20px;}
+p{font-size: 16pt; font-weight: bold; padding: 20px}
+ul{}
+li{font-size:16pt}

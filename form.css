@@ -1,0 +1,20 @@
+
+
+body{background-color: cadetblue;}
+.container{background-color: white; width: 75%; margin: auto;
+padding: 80px; box-sizing: border-box ;}
+.form-group{
+	width: 50%; margin: auto; padding: 30px;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 20px 5px dimgray;
+}
+.req::after{content: ' *'; color: orangered;}
+
+div{margin-bottom: 10px}
+input,textarea{width: 90%; padding: 10px; margin-top: 5px}
+input:reqired{border-bottom: thin solid indianred; }
+
+input:invalid{color:indianred;}
+/*input:valid{color:green;}*/
+button{background-color: black; color: white;
+padding: 10px 20px; border-radius: 20px}
